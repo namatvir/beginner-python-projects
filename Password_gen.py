@@ -1,5 +1,3 @@
-#April 19th 2025
-
 import random
 
 def password_gen(leng: int)->str:
@@ -14,9 +12,6 @@ def password_gen(leng: int)->str:
         password.append(random.choice(storage))
 
     return ''.join(password)
-
-
-#April 20th 2025
 
 def user_test(user_password: str, generated_password: str):
 
